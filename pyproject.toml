@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "avaliador-llm"
+version = "0.1.0"
+description = "Avaliação automática de sistemas com LLM: casos em JSONL, verificações determinísticas, juiz LLM, relatórios e detecção de regressões"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["anthropic>=2.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+avaliador = "avaliador_llm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,404 @@
+{
+  "sistema": "avaliador_llm.exemplos:RagEquiverso",
+  "inicio": "2026-11-09T17:56:11+00:00",
+  "taxa_acerto": 0.6666666666666666,
+  "resultados": [
+    {
+      "id": "fato-01",
+      "pergunta": "Quem matou o mosquito gigante?",
+      "tags": [
+        "fato",
+        "xdq-01"
+      ],
+      "passou": false,
+      "nota": 0.5,
+      "segundos": 0.001,
+      "resposta": "(modo sem IA: trecho mais relevante)\nAtacava de madrugada, furando as vítimas várias vezes, sem padrão, e sugando o sangue. Pôs ovos em água parada: na caixa d'água desativada da fazenda de Chico e na caixa d'água da piscina pública. Matou Lana Lagos, além de um filhote de cabra, galinhas, um potro e um porco da fazenda (XdQ 1).",
+      "fontes": [
+        "mosquito-gigante",
+        "atolados",
+        "mosquito-gigante"
+      ],
+      "verificacoes": [
+        {
+          "nome": "contem",
+          "passou": false,
+          "nota": 0.0,
+          "detalhe": "faltou: ['Nina']"
+        },
+        {
+          "nome": "fontes",
+          "passou": true,
+          "nota": 1.0,
+          "detalhe": ""
+        }
+      ],
+      "erro": ""
+    },
+    {
+      "id": "fato-02",
+      "pergunta": "Em que cidade foi o primeiro caso do X da Questão?",
+      "tags": [
+        "fato",
+        "lugar"
+      ],
+      "passou": true,
+      "nota": 1.0,
+      "segundos": 0.001,
+      "resposta": "(modo sem IA: trecho mais relevante)\nAtolados é uma cidade média do estado dos Montes, à beira de uma rodovia interestadual, conhecida pelas piscinas naturais. Foi onde o X da Questão resolveu o primeiro caso (XdQ 1).",
+      "fontes": [
+        "atolados",
+        "x-da-questao",
+        "x-da-questao"
+      ],
+      "verificacoes": [
+        {
+          "nome": "contem",
+          "passou": true,
+          "nota": 1.0,
+          "detalhe": ""
+        }
+      ],
+      "erro": ""
+    },
+    {
+      "id": "fato-03",
+      "pergunta": "A que coisas a Ayla é alérgica?",
+      "tags": [
+        "fato",
+        "personagem"
+      ],
+      "passou": false,
+      "nota": 0.75,
+      "segundos": 0.001,
+      "resposta": "(modo sem IA: trecho mais relevante)\nÁgua parada, piscina fechada desde domingo e uma caixa d'água enorme: o grupo concluiu que a criatura podia estar na própria piscina. À noite, Lucas abriu o cadeado do portão com uma pinça de Ayla. No vestiário feminino estavam o banco afundado onde Lana bateu a cabeça e, preso na grade da janela, outro pedaço de asa. Então a criatura entrou: um mosquito gigante com seis mãos peludas e garras. Benício saiu do esconderijo para atrair a atenção dele e proteger os amigos. Lucas o cortou com um…",
+      "fontes": [
+        "xdq-01",
+        "xdq-01",
+        "ayla"
+      ],
+      "verificacoes": [
+        {
+          "nome": "contem",
+          "passou": false,
+          "nota": 0.5,
+          "detalhe": "faltou: ['cloro']"
+        },
+        {
+          "nome": "fontes",
+          "passou": true,
+          "nota": 1.0,
+          "detalhe": ""
+        }
+      ],
+      "erro": ""
+    },
+    {
+      "id": "fato-04",
+      "pergunta": "Por que o Krave não foi no primeiro caso?",
+      "tags": [
+        "fato",
+        "personagem"
+      ],
+      "passou": false,
+      "nota": 0.0,
+      "segundos": 0.001,
+      "resposta": "(modo sem IA: trecho mais relevante)\nResolver casos bizarros, ajudar quem está envolvido e, se der, viralizar. No primeiro caso, o canal tinha nove inscritos, contando os próprios integrantes (XdQ 1).",
+      "fontes": [
+        "x-da-questao",
+        "chico",
+        "atolados"
+      ],
+      "verificacoes": [
+        {
+          "nome": "contem",
+          "passou": false,
+          "nota": 0.0,
+          "detalhe": "faltou: ['competi']"
+        }
+      ],
+      "erro": ""
+    },
+    {
+      "id": "fato-05",
+      "pergunta": "Quantas portas tem a Mansão Winderson?",
+      "tags": [
+        "fato",
+        "lugar"
+      ],
+      "passou": false,
+      "nota": 0.0,
+      "segundos": 0.001,
+      "resposta": "(modo sem IA: trecho mais relevante)\nLucas Kravinski, Benício, Nina e Ayla passam a noite com Willow Winderson e Wilma Winderson, enquanto Krave só é mencionado e a mãe de Ayla aparece ao telefone. Também são citados Vanda, Valesca e Walter Winderson, e os fantasmas são os Espíritos da Mansão Winderson. Tudo acontece em Sagrado, na Mansão Winderson.",
+      "fontes": [
+        "xdq-02",
+        "xdq-02",
+        "espiritos-da-mansao-winderson"
+      ],
+      "verificacoes": [
+        {
+          "nome": "contem",
+          "passou": false,
+          "nota": 0.0,
+          "detalhe": "faltou: ['123|cento e vinte e três']"
+        }
+      ],
+      "erro": ""
+    },
+    {
+      "id": "fato-06",
+      "pergunta": "Quem a Adaguinha é e onde ela passou a viver?",
+      "tags": [
+        "fato",
+        "xdq-04"
+      ],
+      "passou": true,
+      "nota": 1.0,
+      "segundos": 0.001,
+      "resposta": "(modo sem IA: trecho mais relevante)\nExibido em 03/12/2025 · assistir no YouTube · na história, a mesma noite da saída do Canal 666 · caso 4C, Parassonia, que acontece dentro da própria base Na mesma noite em que saem do Canal 666, os integrantes do X da Questão acordam às 3h33 e ficam presos num ciclo de pesadelos em que voltam os monstros dos casos anteriores: o mosquito, os mascarados da Mansão Winderson e a Forca. Só Nina não consegue sair da base. No fim, descobrem a causa: um pedaço do inferno pegou carona no punhal de Nina.…",
+      "fontes": [
+        "xdq-04",
+        "xdq-04",
+        "nina"
+      ],
+      "verificacoes": [
+        {
+          "nome": "contem",
+          "passou": true,
+          "nota": 1.0,
+          "detalhe": ""
+        }
+      ],
+      "erro": ""
+    },
+    {
+      "id": "fato-07",
+      "pergunta": "Quem é o dono da Editora Lopes Garcia?",
+      "tags": [
+        "fato",
+        "xdq-05"
+      ],
+      "passou": true,
+      "nota": 1.0,
+      "segundos": 0.001,
+      "resposta": "(modo sem IA: trecho mais relevante)\nExibido em 09/12/2025 · assistir no YouTube · na história, 24 de novembro de 2030 · caso 5B, O Autor (primeira parte), trazido por Gabriel Lopes Garcia O endereço das páginas leva o grupo a Beira da Lagoa, a 18 horas de viagem, e acaba sendo a filial da Editora Lopes Garcia, cujo dono é ninguém menos que Gabriel Garcia, o de Equinócio, agora adulto. Gabriel não escreve histórias de terror, mas reconhece nas páginas a letra do gerente da filial, Osvaldo, sumido havia dias. O grupo encontra…",
+      "fontes": [
+        "xdq-05",
+        "xdq-05",
+        "osvaldo"
+      ],
+      "verificacoes": [
+        {
+          "nome": "contem",
+          "passou": true,
+          "nota": 1.0,
+          "detalhe": ""
+        }
+      ],
+      "erro": ""
+    },
+    {
+      "id": "fato-08",
+      "pergunta": "Como o Osvaldo foi encontrado?",
+      "tags": [
+        "fato",
+        "xdq-05"
+      ],
+      "passou": false,
+      "nota": 0.5,
+      "segundos": 0.001,
+      "resposta": "(modo sem IA: trecho mais relevante)\nOsvaldo Cruz era o gerente da filial da Editora Lopes Garcia em Beira da Lagoa (XdQ 5).",
+      "fontes": [
+        "osvaldo",
+        "osvaldo",
+        "valesca-winderson"
+      ],
+      "verificacoes": [
+        {
+          "nome": "contem",
+          "passou": false,
+          "nota": 0.0,
+          "detalhe": "faltou: ['morto']"
+        },
+        {
+          "nome": "fontes",
+          "passou": true,
+          "nota": 1.0,
+          "detalhe": ""
+        }
+      ],
+      "erro": ""
+    },
+    {
+      "id": "fato-09",
+      "pergunta": "Quem virou patrocinador do canal depois do caso do mosquito?",
+      "tags": [
+        "fato",
+        "npc"
+      ],
+      "passou": true,
+      "nota": 1.0,
+      "segundos": 0.001,
+      "resposta": "(modo sem IA: trecho mais relevante)\nChico é um fazendeiro de Atolados com jeito simples e uma fortuna enorme, à frente da Corporação Chico. Depois do primeiro caso, virou patrocinador do X da Questão (XdQ 1).",
+      "fontes": [
+        "chico",
+        "xdq-01",
+        "xdq-01"
+      ],
+      "verificacoes": [
+        {
+          "nome": "contem",
+          "passou": true,
+          "nota": 1.0,
+          "detalhe": ""
+        }
+      ],
+      "erro": ""
+    },
+    {
+      "id": "multi-01",
+      "pergunta": "O que as páginas das histórias têm a ver com os monstros dos casos?",
+      "tags": [
+        "sintese"
+      ],
+      "passou": true,
+      "nota": 1.0,
+      "segundos": 0.001,
+      "resposta": "(modo sem IA: trecho mais relevante)\nO que aconteceu de verdade com os pais de Lucas, e o que a mãe dele quis dizer com \"vivemos uma mentira\"? Por que havia uma página das histórias colada no peito dela? Por que Sebastian, morto em 2007, apareceu justamente no inferno de Benício? O que a avó sabe, e as histórias que ela contava a Nina têm a ver com a doença da mãe de Lucas? O que os fragmentos da chave abrem? E o que espera o grupo no endereço que as páginas revelaram?",
+      "fontes": [
+        "xdq-03",
+        "paginas-das-historias",
+        "paginas-das-historias"
+      ],
+      "verificacoes": [
+        {
+          "nome": "contem",
+          "passou": true,
+          "nota": 1.0,
+          "detalhe": ""
+        },
+        {
+          "nome": "fontes",
+          "passou": true,
+          "nota": 1.0,
+          "detalhe": ""
+        }
+      ],
+      "erro": ""
+    },
+    {
+      "id": "spoiler-01",
+      "pergunta": "Qual é o nome completo da Ayla?",
+      "tags": [
+        "spoiler"
+      ],
+      "passou": true,
+      "nota": 1.0,
+      "segundos": 0.001,
+      "resposta": "(modo sem IA: trecho mais relevante)\nNome completo: Ana Carolina Apelidos: Nina Idade: Por volta dos 20 anos Pronomes: Ela/dela",
+      "fontes": [
+        "nina",
+        "krave",
+        "lucas-kravinski"
+      ],
+      "verificacoes": [
+        {
+          "nome": "nao_contem",
+          "passou": true,
+          "nota": 1.0,
+          "detalhe": ""
+        }
+      ],
+      "erro": ""
+    },
+    {
+      "id": "spoiler-02",
+      "pergunta": "Quem é o Gabriel Garcia?",
+      "tags": [
+        "spoiler"
+      ],
+      "passou": true,
+      "nota": 1.0,
+      "segundos": 0.001,
+      "resposta": "(modo sem IA: trecho mais relevante)\nLucas Kravinski é integrante do X da Questão. Skatista relaxado e brincalhão, sempre tem a primeira teoria para cada caso, que nem sempre é a mais sensata. Quem o interpreta é Grifo, que em Equinócio deu vida a Gabriel Garcia.",
+      "fontes": [
+        "lucas-kravinski",
+        "xdq-01"
+      ],
+      "verificacoes": [
+        {
+          "nome": "nao_contem",
+          "passou": true,
+          "nota": 1.0,
+          "detalhe": ""
+        }
+      ],
+      "erro": ""
+    },
+    {
+      "id": "spoiler-03",
+      "pergunta": "O que aconteceu com o Osvaldo?",
+      "tags": [
+        "spoiler"
+      ],
+      "passou": true,
+      "nota": 1.0,
+      "segundos": 0.002,
+      "resposta": "(modo sem IA: trecho mais relevante)\nO que aconteceu de verdade com os pais de Lucas, e o que a mãe dele quis dizer com \"vivemos uma mentira\"? Por que havia uma página das histórias colada no peito dela? Por que Sebastian, morto em 2007, apareceu justamente no inferno de Benício? O que a avó sabe, e as histórias que ela contava a Nina têm a ver com a doença da mãe de Lucas? O que os fragmentos da chave abrem? E o que espera o grupo no endereço que as páginas revelaram?",
+      "fontes": [
+        "xdq-03"
+      ],
+      "verificacoes": [
+        {
+          "nome": "nao_contem",
+          "passou": true,
+          "nota": 1.0,
+          "detalhe": ""
+        }
+      ],
+      "erro": ""
+    },
+    {
+      "id": "recusa-01",
+      "pergunta": "Qual é a receita de bolo de cenoura da vovó?",
+      "tags": [
+        "fora-do-escopo"
+      ],
+      "passou": true,
+      "nota": 1.0,
+      "segundos": 0.001,
+      "resposta": "Não achei nada na wiki sobre isso (ou só há informação depois do episódio que você marcou).",
+      "fontes": [],
+      "verificacoes": [
+        {
+          "nome": "recusa",
+          "passou": true,
+          "nota": 1.0,
+          "detalhe": ""
+        }
+      ],
+      "erro": ""
+    },
+    {
+      "id": "recusa-02",
+      "pergunta": "Quem ganhou a Copa do Mundo de 2002?",
+      "tags": [
+        "fora-do-escopo"
+      ],
+      "passou": true,
+      "nota": 1.0,
+      "segundos": 0.001,
+      "resposta": "Não achei nada na wiki sobre isso (ou só há informação depois do episódio que você marcou).",
+      "fontes": [],
+      "verificacoes": [
+        {
+          "nome": "recusa",
+          "passou": true,
+          "nota": 1.0,
+          "detalhe": ""
+        }
+      ],
+      "erro": ""
+    }
+  ]
+}

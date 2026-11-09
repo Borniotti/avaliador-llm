@@ -1,0 +1,15 @@
+{"id": "fato-01", "pergunta": "Quem matou o mosquito gigante?", "contexto": {"assistiu_ate": "xdq-01"}, "esperado": {"deve_conter": ["Nina"], "fontes_esperadas": ["xdq-01|mosquito-gigante"]}, "tags": ["fato", "xdq-01"]}
+{"id": "fato-02", "pergunta": "Em que cidade foi o primeiro caso do X da Questão?", "contexto": {"assistiu_ate": "xdq-01"}, "esperado": {"deve_conter": ["Atolados"]}, "tags": ["fato", "lugar"]}
+{"id": "fato-03", "pergunta": "A que coisas a Ayla é alérgica?", "contexto": {"assistiu_ate": "xdq-01"}, "esperado": {"deve_conter": ["mosquito", "cloro"], "fontes_esperadas": ["ayla"]}, "tags": ["fato", "personagem"]}
+{"id": "fato-04", "pergunta": "Por que o Krave não foi no primeiro caso?", "contexto": {"assistiu_ate": "xdq-01"}, "esperado": {"deve_conter": ["competi"]}, "tags": ["fato", "personagem"]}
+{"id": "fato-05", "pergunta": "Quantas portas tem a Mansão Winderson?", "contexto": {"assistiu_ate": "xdq-02"}, "esperado": {"deve_conter": ["123|cento e vinte e três"]}, "tags": ["fato", "lugar"]}
+{"id": "fato-06", "pergunta": "Quem a Adaguinha é e onde ela passou a viver?", "contexto": {"assistiu_ate": "xdq-04"}, "esperado": {"deve_conter": ["punhal", "Nina"]}, "tags": ["fato", "xdq-04"]}
+{"id": "fato-07", "pergunta": "Quem é o dono da Editora Lopes Garcia?", "contexto": {"assistiu_ate": "xdq-05"}, "esperado": {"deve_conter": ["Gabriel"]}, "tags": ["fato", "xdq-05"]}
+{"id": "fato-08", "pergunta": "Como o Osvaldo foi encontrado?", "contexto": {"assistiu_ate": "xdq-05"}, "esperado": {"deve_conter": ["morto"], "fontes_esperadas": ["osvaldo|xdq-05"]}, "tags": ["fato", "xdq-05"]}
+{"id": "fato-09", "pergunta": "Quem virou patrocinador do canal depois do caso do mosquito?", "contexto": {"assistiu_ate": "xdq-01"}, "esperado": {"deve_conter": ["Chico"]}, "tags": ["fato", "npc"]}
+{"id": "multi-01", "pergunta": "O que as páginas das histórias têm a ver com os monstros dos casos?", "contexto": {"assistiu_ate": "xdq-03"}, "esperado": {"deve_conter": ["página|pagina"], "fontes_esperadas": ["paginas-das-historias"]}, "tags": ["sintese"]}
+{"id": "spoiler-01", "pergunta": "Qual é o nome completo da Ayla?", "contexto": {"assistiu_ate": "xdq-05"}, "esperado": {"nao_deve_conter": ["Navarro"]}, "tags": ["spoiler"]}
+{"id": "spoiler-02", "pergunta": "Quem é o Gabriel Garcia?", "contexto": {"assistiu_ate": "xdq-02"}, "esperado": {"nao_deve_conter": ["Editora", "Lopes Garcia"]}, "tags": ["spoiler"]}
+{"id": "spoiler-03", "pergunta": "O que aconteceu com o Osvaldo?", "contexto": {"assistiu_ate": "xdq-03"}, "esperado": {"nao_deve_conter": ["escrivaninha", "carne viva"]}, "tags": ["spoiler"]}
+{"id": "recusa-01", "pergunta": "Qual é a receita de bolo de cenoura da vovó?", "contexto": {"assistiu_ate": "xdq-05"}, "esperado": {"deve_recusar": true}, "tags": ["fora-do-escopo"]}
+{"id": "recusa-02", "pergunta": "Quem ganhou a Copa do Mundo de 2002?", "contexto": {"assistiu_ate": "xdq-05"}, "esperado": {"deve_recusar": true}, "tags": ["fora-do-escopo"]}
